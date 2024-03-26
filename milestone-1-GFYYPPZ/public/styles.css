@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(242, 242, 242);
+  }  
+
+/* -------------------- Banner Section -------------------- */
+.banner {
+    color: #343434;
+    font-size:xx-large;
+    font-weight: bold;
+    padding: 10px 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* -------------------- Overview Section -------------------- */
+#overview {
+    padding: 180px 70px;
+    background-color: rgb(242, 242, 242);
+}
+
+.overview-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 120px;
+    justify-content: center;
+}
+
+.overview-left {
+    flex-basis: 25%;
+}
+
+.overview-left .title {
+    font-weight: bold;
+    color: #000;
+}
+
+.overview-left .subtitle {
+    font-weight: 400;
+    color: #000;
+}
+
+.overview-left a {
+    padding: 30px 40px;
+    font-weight: 100;
+}
+
+.overview-right {
+    border: #000 1px solid;
+    border-radius: 10px;
+    height: 480px;
+    min-width: 300px;
+    flex-basis: 50%;
+}
+
+.overview-right > img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+/* -------------------- Carousel Section -------------------- */
+#carousel {
+    padding: 180px 70px;
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-container {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 4rem;
+}
+
+.carousel-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.carousel-left img {
+    border: #000 1px solid;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container button {
+    padding: 5px 35px;
+    font-size: 1.1rem;
+}
+
+.carousel-right {
+    flex: 1;
+}
+
+.carousel-right-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.carousel-right-content #title {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.carousel-right-content #description {
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.carousel-right-content #features {
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #000;
+    font-weight: 500;
+}
+
+.carousel-right-btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.carousel-right-btn a {
+    padding: 5px 35px;
+    font-size: 1.1rem;
+}
+
+.carousel-right-btn #price {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    align-self: center;
+}
+
+/* -------------------- Review Section -------------------- */
+#review {
+    margin: 150px 0px;
+    padding: 0 70px;
+}
+
+.review-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.review-header p:nth-child(1) {
+    color: #000;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.review-header p:nth-child(2) {
+    color: #000;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.review-box {
+    width: 25%;
+    min-width: 200px;
+}
+
+.review-container .review-box img {
+    width: 100%;
+    /* aspect-ratio: 1/1; */
+    margin-bottom: 20px;
+}
+
+.review-content {
+    color: #000;
+    font-weight: 600;
+    font-size: 1.1rem
+}
+
+.review-date {
+    margin-top: 10px;
+    color: #000;
+    font-size: small;
+}
+
+/* -------------------- Footer Section -------------------- */
+
+#footer {
+    margin: 200px 0px;
+    padding: 0 70px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-left p {
+    color: #343434;
+    font-size:xx-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-left ul li {
+    color: #000;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.footer-right p {
+    color: #000;
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-right ul li {
+    color: #000;
+    margin-bottom: 15px;
+    list-style: none;
+}
